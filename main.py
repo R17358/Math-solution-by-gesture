@@ -1,6 +1,5 @@
 #https://ai.google.dev/gemini-api/docs/quickstart?lang=python
 #https://aistudio.google.com/app/apikey
-#AIzaSyCD6M571IvBJHm31wTF5vOrGV60gk-PtRQ
 #pip install -q -U google-generativeai
 
 #python - m streamlit run main.py
@@ -31,7 +30,7 @@ with col2:
     output_text_area = st.subheader("")
 
 
-genai.configure(api_key="AIzaSyCD6M571IvBJHm31wTF5vOrGV60gk-PtRQ")
+genai.configure(api_key="ADD YOUR API KEY HERE")
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
